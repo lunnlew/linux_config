@@ -3,7 +3,7 @@
 bash配置文件
 
 ### zshrc
-zsh配置
+zsh配置  
 把zsh设为默认shell(重启后生效):chsh -s /bin/zsh 
 
 ### vimrc-easy
