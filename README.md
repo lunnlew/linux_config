@@ -18,5 +18,4 @@ oh-my-zsh的配置文件加入命令行高亮
 vim简易配置
 
 ## zshrc
-zsh配置  
-把zsh设为默认shell(重启后生效):chsh -s /bin/zsh 
+zsh配置/把zsh设为默认shell(重启后生效):chsh -s /bin/zsh 
