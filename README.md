@@ -8,8 +8,8 @@ Ubuntu下Moulds文件夹中的文件,用来增加鼠标右键的菜单
 ## bashrc: 
 bash配置文件
 
-## httpd.conf:
-Arch下的/etc/httpd/conf的apache配置文件
+## index.html
+apache'大白'首页
 
 ## oh-my-zshrc
 oh-my-zsh的配置文件加入命令行高亮
