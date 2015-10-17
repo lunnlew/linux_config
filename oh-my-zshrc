@@ -81,8 +81,7 @@ source $ZSH/oh-my-zsh.sh
 
 
 
-
-
+#命令高亮部分
 
 #color{{{
 autoload colors zsh/terminfo
@@ -114,12 +113,10 @@ zle_highlight=(region:bg=magenta #选中区域
 #命令别名 {{{
 alias -g cp='cp -i'
 alias -g mv='mv -i'
-alias -g rm='rm -if'
 alias -g ls='ls -F --color=auto'
-alias -g ll='ls -l'
+alias -g ll='ls -la'
 alias -g grep='grep --color=auto'
 alias -g ee='emacsclient -t'
-alias -g history='history -fi'
  
 #漂亮又实用的命令高亮界面
 setopt extended_glob
@@ -155,8 +152,3 @@ check-cmd-self-insert() { zle .self-insert && recolor-cmd }
  
  zle -N self-insert check-cmd-self-insert
  zle -N backward-delete-char check-cmd-backward-delete-char
-
-
-
-
-

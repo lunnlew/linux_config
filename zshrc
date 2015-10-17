@@ -246,12 +246,10 @@ bindkey "\e\e" sudo-command-line
 #命令别名 {{{
 alias -g cp='cp -i'
 alias -g mv='mv -i'
-alias -g rm='rm -if'
 alias -g ls='ls -F --color=auto'
-alias -g ll='ls -l'
+alias -g ll='ls -la'
 alias -g grep='grep --color=auto'
 alias -g ee='emacsclient -t'
-alias -g history='history -fi'
  
 #[Esc][h] man 当前命令时，显示简短说明 
 alias run-help >&/dev/null && unalias run-help
